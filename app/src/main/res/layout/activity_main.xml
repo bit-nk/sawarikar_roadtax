@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/displayBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="105dp"
+        android:text="+" />
+
+
+
+    <Button
+        android:id="@+id/displayBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="103dp"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/displayBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/displayBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="/" />
+
+
+    <TextView
+        android:id="@+id/displayTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/displayBtn3"
+        android:hint="Your Text Here"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputEditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/displayBtn3"
+        android:layout_marginLeft="213dp"
+        android:hint="Enter Second Text Here"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputEdtTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/displayBtn1"
+        android:hint="Enter First Text Here"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
